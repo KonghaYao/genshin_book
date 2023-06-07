@@ -1,0 +1,17 @@
+{
+  "name": "genshin_book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:books": "node ./scripts/get_chinese_books.mjs&&node ./scripts/get_english_books.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "fs-extra": "^11.1.1"
+  }
+}
