@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:books": "node ./scripts/get_chinese_books.mjs&&node ./scripts/get_english_books.mjs"
   },
   "keywords": [],
   "author": "",
