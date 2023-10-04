@@ -1,5 +1,6 @@
 
 dist
+public/data
 .solid
 .output
 .vercel
